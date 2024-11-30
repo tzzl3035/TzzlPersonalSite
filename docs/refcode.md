@@ -23,9 +23,7 @@ int main() {
 
   return 0;
 }
-
 ```
-
 ### B
 ```cpp
 #include <bits/stdc++.h>
@@ -46,9 +44,7 @@ int main() {
 
   return 0;
 }
-
 ```
-
 ### C
 ```cpp
 #include <bits/stdc++.h>
@@ -82,6 +78,42 @@ int main() {
 
   return 0;
 }
-
 ```
+### D
+```cpp
+#include <bits/stdc++.h>
+using ll = long long;
+using namespace std;
 
+int main() {
+  std::ios::sync_with_stdio(0);
+  std::cin.tie(nullptr);
+
+  int N, M; std::cin >> N >> M;
+  std::vector<int> ans(N);
+  std::vector<std::vector<int>> res;
+  auto dfs = [&](auto &dfs, int x) -> void {
+    if(x == N) {
+      res.push_back(ans);
+      return ;
+    }
+    int i;
+    if(x == 0) i = 1;
+    else i = ans[x-1] + 10;
+    for(; i <= M - (N-x-1) * 10; ++i) {
+      ans[x] = i;
+      dfs(dfs, x+1);
+    }
+  };
+  dfs(dfs, 0);
+  std::cout << res.size() << '\n';
+  for(int i = 0; i < res.size(); ++i) {
+    for(int j = 0; j < N; ++j) {
+      std::cout << res[i][j] << ' ';
+    }
+    std::cout << '\n';
+  }
+
+  return 0;
+}
+```
