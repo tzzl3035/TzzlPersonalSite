@@ -1,25 +1,3 @@
----
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
+# TzzlStudio Site
 
-hero:
-  name: "Tzzl Personal Site"
-  text: "Tzzl Personal Site"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
-
+这是[TzzlStudio](https://www.luogu.com.cn/team/82054#main)的资源站，由[tzzl3035](https://www.luogu.com.cn/user/1030559)创建。
