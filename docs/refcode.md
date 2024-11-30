@@ -1,6 +1,6 @@
 # 参考代码
 
-## ABC382
+## [ABC382](https://atcoder.jp/contests/abc382)
 
 ### A
 ```cpp
@@ -112,6 +112,61 @@ int main() {
       std::cout << res[i][j] << ' ';
     }
     std::cout << '\n';
+  }
+
+  return 0;
+}
+```
+
+## [CF2034](https://codeforces.com/contests/2034)
+
+### A
+```cpp
+#include <bits/stdc++.h>
+using ll = long long;
+using namespace std;
+
+int main() {
+  std::ios::sync_with_stdio(0);
+  std::cin.tie(nullptr);
+
+  int t; std::cin >> t;
+  for(; t; --t) {
+    int a, b; std::cin >> a >> b;
+    std::cout << a * b / __gcd(a, b) << '\n';
+  }
+
+  return 0;
+}
+```
+### B
+```cpp
+#include <bits/stdc++.h>
+using ll = long long;
+using namespace std;
+
+int main() {
+  std::ios::sync_with_stdio(0);
+  std::cin.tie(nullptr);
+
+  int t; std::cin >> t;
+  for(; t; --t) {
+    int n, m, k;
+    std::cin >> n >> m >> k;
+    std::string s;
+    std::cin >> s;
+    s += '1';
+    int ans = 0, tmp = 0;
+    for(int i = 0; i <= n; ++i) {
+      if(s[i] == '0') ++tmp;
+      else tmp = 0;
+      if(tmp == m) {
+        for(int j = i; j < std::min(n, k+i); ++j) 
+          s[j] = '1';
+        tmp = 0, i = std::min(n, k+i)-1, ++ans;
+      }
+    }
+    std::cout << ans << '\n';
   }
 
   return 0;

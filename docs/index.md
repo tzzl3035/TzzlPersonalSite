@@ -3,8 +3,7 @@
 这是[TzzlStudio](https://www.luogu.com.cn/team/82054#main)的资源站，由[tzzl3035](https://www.luogu.com.cn/user/1030559)开发。
 
 ::: tip 最近事项
-[ABC382](https://atcoder.jp/contests/abc382)\
-[CFR989](https://codeforces.com/contests/2034)
+暂无
 :::
 
 ## 各比赛赛时代码参考
