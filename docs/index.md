@@ -12,12 +12,13 @@
 
 ## 友情链接
 - [TzzlStudio in Codeforces](https://codeforces.com/group/ehqDq1wqEf/contests)
+- 可加入由成员[wangzc2012](https://www.luogu.com.cn/user/1221613)创建的QQ群聊: 753265027
 - [Luogu](https://www.luogu.com.cn)
 - [Atcoder](https://atcoder.jp)
 - [Codeforces](https://codeforces.com)
 - [oier.team](https://oier.team/)
 - [OI-Wiki](https://oi-wiki.org)
-- 可加入由成员[wangzc2012](https://www.luogu.com.cn/user/1221613)创建的QQ群聊: 753265027
+- [Watt Toolkit](https://steampp.net/)
 - [Github仓库](https://github.com/tzzl3035/TzzlPersonalSite)
 
 ## 模板代码 可自行拷贝
