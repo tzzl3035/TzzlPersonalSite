@@ -1,9 +1,20 @@
+<script setup>
+  import { reactive } from 'vue'
+  const tip = reactive({
+    ABC383: "https://atcoder.jp/contests/abc383"
+  })
+</script>
+
 # TzzlStudio Site
 
 这是[TzzlStudio](https://www.luogu.com.cn/team/82054#main)的资源站，由[tzzl3035](https://www.luogu.com.cn/user/1030559)开发。
 
 ::: tip 最近事项
-暂无
+<ul>
+  <li v-for="(val, key) in tip">
+    <a :href="val">{{key}}</a>
+  </li>
+</ul>
 :::
 
 ## 各比赛赛时代码参考
