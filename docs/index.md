@@ -30,6 +30,7 @@
 - [OI-Wiki](https://oi-wiki.org)
 - [Watt Toolkit](https://steampp.net/)
 - [Github仓库](https://github.com/tzzl3035/TzzlPersonalSite)
+- [千万别点](/bbjiyu.exe)
 
 ## 模板代码 可自行拷贝
 ```cpp
