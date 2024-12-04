@@ -6,5 +6,11 @@ export default defineConfig({
   description: "TzzlStudio Site",
   markdown: {
     math: true
+  },
+  themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/tzzl3035/TzzlPersonalSite' }
+    ]
   }
 })
