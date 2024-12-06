@@ -1,7 +1,6 @@
 <script setup>
   import { reactive } from 'vue'
   const tip = reactive({
-    "CFR991 (Online)": "https://codeforces.com/contests/2050",
     "ABC383": "https://atcoder.jp/contests/abc383"
   })
 </script>
