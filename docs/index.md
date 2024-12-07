@@ -35,6 +35,8 @@
 ```cpp
 #include <bits/stdc++.h>
 using ll = long long;
+using pii = std::pair<int, int>;
+using pll = std::pair<long, long>;
 using namespace std;
 
 int main() {
