@@ -37,7 +37,7 @@
 using ll = long long;
 using pii = std::pair<int, int>;
 using pll = std::pair<long, long>;
-using namespace std;
+// using namespace std;
 
 int main() {
   std::ios::sync_with_stdio(0);
